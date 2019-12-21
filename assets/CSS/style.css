@@ -1,0 +1,193 @@
+body {
+    background-image: url("../images/retina_wood.png");
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+header {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ccc;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    padding-bottom: 0px;
+}
+
+#my-name {
+    float: left; 
+    background-color: #4aaaa5;
+    color: #fff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 10px 10px;
+    line-height: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #999;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+
+a:hover {
+    color: #4aaaa5;
+    transition: 0.5s; 
+}
+
+#portfolio-link {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#content {
+    border: 1px solid;
+    border-color: #dddddd;
+    background-color: #fff;
+    padding: 20px;
+    width: 920px;
+    position: relative;
+    top: 140px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    font-size: 30px;
+    border-bottom: 2px solid #ccc;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.trophy {
+    float: left;
+    margin-right: 30px;
+    width: 300px;
+    border: solid;
+    border-color: #4aaaa5;
+    border-width: 2px;
+    margin: 0px 10px 0px 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+	text-align: center;
+	background-color: #777;
+	color: #ccc;
+	line-height: 40px;
+	margin-top: 40px;
+	border-top: 8px solid #4aaaa5;
+	font-size: 12px;
+}
+
+/* Contact Form Specific */
+
+#contact-form ul {
+  margin-bottom: 20px;
+  list-style-type: none;
+  padding-left: 0;
+  color: #777777;
+  padding-right: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+/* portfolio page specific */
+
+.projects {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 180px;
+    margin: 20px 80px 25px 0px;
+    
+  }
+
+  .projects img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .projects h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 220px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 22px;
+  }
